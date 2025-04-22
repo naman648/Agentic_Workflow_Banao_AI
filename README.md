@@ -66,8 +66,13 @@ streamlit run app.py
 Visit http://localhost:8501 in your browser.
 
 ### 🗺️ Workflow Overview
-
-
+```bash
+    A[User Query] --> B(PlanAgent 🧠);
+    B --> C{ToolAgent 🛠️};
+    C --> D[ReflectionAgent 💡];
+    D --> E(Repeat (Max 3x)) | Yes | B;
+    D --> F[Stop | E[Final Feedback]];
+```
 ### 📂 Folder Structure
 
 ```bash
@@ -76,7 +81,6 @@ Visit http://localhost:8501 in your browser.
 ├── requirements.txt     # Python dependencies
 ├── README.md            # You're here!
 ```
-### 🌐 Live Demo
 
 ### 📌 Notes
 
