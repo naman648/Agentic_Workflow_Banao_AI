@@ -58,12 +58,15 @@ Create a .env file in the root directory with the following:
 ```bash
 GROQ_API_KEY="your_groq_api_key_here"
 ```
+---
 ### 🧪 Run the App
 
 ```bash
 streamlit run app.py
 ```
 Visit http://localhost:8501 in your browser.
+
+---
 
 ### 🗺️ Workflow Overview
 ```bash
@@ -73,6 +76,8 @@ Visit http://localhost:8501 in your browser.
     D --> E(Repeat (Max 3x)) | Yes | B;
     D --> F[Stop | E[Final Feedback]];
 ```
+---
+
 ### 📂 Folder Structure
 
 ```bash
@@ -81,6 +86,7 @@ Visit http://localhost:8501 in your browser.
 ├── requirements.txt     # Python dependencies
 ├── README.md            # You're here!
 ```
+---
 
 ### 📌 Notes
 
@@ -88,8 +94,12 @@ Visit http://localhost:8501 in your browser.
 - You can modify the LLM model (llama3-8b-8192) inside the ask_groq() function.
 - Customize agents or workflow edges by modifying app.py.
 
+---
+
 ### 📄 License
 This project is licensed under the MIT License. Feel free to fork and build upon it!
+
+---
 
 ### 💡 Author
 Crafted with ❤️ by Naman Verma
