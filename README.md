@@ -4,10 +4,11 @@ A powerful agentic workflow powered by **LangGraph**, **Groq's LLaMA 3**, and **
 
 ---
 
-## 📸 Demo
+## 🌐 It's a live project
+Visit here:
+https://agenticworkflowbanaoai-yavttk93fpyhuuk8wtr4sy.streamlit.app/
 
-<!-- Add your GIF or image demo -->
-![Workflow Demo](demo.gif)
+![demo.gif](https://tenor.com/bPQUH.gif)
 
 ---
 
